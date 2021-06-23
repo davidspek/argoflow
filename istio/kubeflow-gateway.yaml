@@ -26,4 +26,4 @@ spec:
       protocol: HTTPS
     tls:
       mode: SIMPLE
-      credentialName: kubeflow-abs-cloud-nl
+      credentialName: kubeflow-zerossl-cert

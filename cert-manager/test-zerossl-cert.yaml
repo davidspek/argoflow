@@ -1,0 +1,15 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: kubeflow-zerossl-cert
+  namespace: istio-system
+spec:
+  secretName: kubeflow-zerossl-cert
+  issuerRef:
+    name: zerossl-prod
+    kind: ClusterIssuer
+  commonName: kubeflow.abs-cloud.nl
+  dnsNames:
+    - kubeflow.abs-cloud.nl
+    - serving.abs-cloud.nl
+    - "*.serving.abs-cloud.nl"

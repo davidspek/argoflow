@@ -1,0 +1,23 @@
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: zerossl-prod
+spec:
+  acme:
+    server: https://acme.zerossl.com/v2/DV90
+    externalAccountBinding:
+      keyID: i0CdqG35NR8iiEdbjW6gbA
+      keySecretRef:
+        name: zerossl-eabsecret
+        key: value
+    privateKeySecretRef:
+      # Secret resource that will be used to store the account's private key.
+      name: zerossl-prod
+    # Add a single challenge solver, HTTP01 using nginx
+    solvers:
+    - dns01:
+        cloudflare:
+          email: vanderspek.david@gmail.com
+          apiTokenSecretRef:
+            name: cloudflare-api-token-secret
+            key: api-token
