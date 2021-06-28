@@ -27,6 +27,7 @@ data:
         # The list of available standard container Images
         options:
           - kubeflownotebooks/jupyter-scipy:v0.2.61
+          - kubeflownotebooks/jupyter-go:v0.2.64
           - kubeflownotebooks/jupyter-pytorch-full:v0.2.60
           - kubeflownotebooks/jupyter-pytorch-full-cuda:v0.2.60
           - kubeflownotebooks/jupyter-tensorflow-full:v0.2.60
