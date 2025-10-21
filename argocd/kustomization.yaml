@@ -4,7 +4,7 @@ namespace: argocd
 
 resources:
 - namespace.yaml
-- github.com/argoproj/argo-cd/manifests/ha/cluster-install?ref=8d2b13d733e1dff7d1ad2c110ed31be4804406e2 # tag=v2.0.3
+- github.com/argoproj/argo-cd/manifests/ha/cluster-install?ref=4c94d886f56bcb2f9d5b3251fdc049c2d1354b88 # tag=v2.0.5
 - argocd-ingress.yaml
 - argocd-cert.yaml
 
