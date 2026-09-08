@@ -11,29 +11,29 @@ resources:
 images:
 - name: gcr.io/knative-releases/knative.dev/serving/cmd/activator
   newName: gcr.io/knative-releases/knative.dev/serving/cmd/activator
-  digest: sha256:91e67a579378fa39d7c941e379db183464c3add3d53b4617f65d9cbc2f0c770a
+  digest: sha256:e5ab46f3b73fa2e3898fe47f6a3a0c2bd765596f4fb36ceb4c28c35d0a74b2e5
 - name: gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler
   newName: gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler
-  digest: sha256:761dc36210e69ebef3a64ce72ad9f54f8172e4aed6b97e8a706e3128956ec54d
+  digest: sha256:879da127b23db65d862cafa6b23fb987381d0e44150f0027d44e1f5aee83bde2
 - name: gcr.io/knative-releases/knative.dev/serving/cmd/webhook
   newName: gcr.io/knative-releases/knative.dev/serving/cmd/webhook
-  digest: sha256:268bd1383b56ba7b9acf391c681f7a63780c22dcd4555c2f4a7b61ec6da81cf4
+  digest: sha256:3846e9a416665c5b9ec2e4de246cfcb5c4ab0d01ba19348aa008caf30144b650
 - name: gcr.io/knative-releases/knative.dev/serving/cmd/controller
   newName: gcr.io/knative-releases/knative.dev/serving/cmd/controller
-  digest: sha256:d772809059033e437d6e98248a334ded37b6f430c2ca23377875cc2459a3b73e
+  digest: sha256:ca5062ece0329d002a81940cf4268d7898866434d70049bb93f27d3a786d3292
 - name: gcr.io/knative-releases/knative.dev/net-istio/cmd/controller
   newName: gcr.io/knative-releases/knative.dev/net-istio/cmd/controller
-  digest: sha256:17ee40a68cda50772375dcc4230efa99e7f8666a050ad2ffcd0338ff31c1bfaa
+  digest: sha256:cf1530d3b625d247114f006e4902ba8c0f2a3196d1d7a6b7acbeb7d7db11d148
 - name: gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook
   newName: gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook
-  digest: sha256:1da4b47f1778005b3cf07d384cac27c8c688628b9e7e631f15dd6ac3456c3039
+  digest: sha256:ac5c0458f32e353a635919ccd89fe77a7bf650c5354dd76c71e9316eff5de65d
 # Eventing is optional
 - name: gcr.io/knative-releases/knative.dev/eventing/cmd/controller
   newName: gcr.io/knative-releases/knative.dev/eventing/cmd/controller
-  digest: sha256:b02cfc6d0858de1ae6d5d5acbe1ac2ed1c5411f2adcec417c2b113b3b3274e4a
+  digest: sha256:dd385d5632b8ce1a49c45421a3a11db91837c8fb12ea56c7ebde4f9aad2e825c
 - name: gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
   newName: gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
-  digest: sha256:5f037fe6755fb85fb0a155f9892c8519a058dbf395d2d04b2c6769ffd2d68950
+  digest: sha256:3f6dfc52cfaf0b5a8e0c098f83f60eb237d3b8bfbbd4d0faea7c08fad98a1215
 - name: gcr.io/knative-releases/knative.dev/eventing/cmd/mtping
   newName: gcr.io/knative-releases/knative.dev/eventing/cmd/mtping
-  digest: sha256:ac30b62fa390b01c24a9bb891c4b8aa7a8c6c747a5182592d81af58d65eaa65c
+  digest: sha256:2fc8713fb4807df0f5d8f9506d03c16c168eed61f19c04e04092266248bd0353
